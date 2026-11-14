@@ -12,9 +12,11 @@ Make a ~10-minute "Why You'd Never Want To Meet A [ANIMAL]" documentary from one
 
 ## Install
 
-1. Unzip so you get `C:\Users\<you>\.claude\skills\depth-pov-explainer\SKILL.md`.
-2. Open Claude Code and type `/depth-pov-explainer`, or just ask: "Make a Depth POV video about the [animal]".
-3. On the first run Claude creates `D:\DepthPOV\.env`. Open it in Notepad, paste your keys, save, and tell Claude to continue:
+1. Click **Code → Download ZIP** and unzip it.
+2. Rename the folder to `depth-pov-explainer` (remove the `-main` at the end). Claude won't find the skill otherwise.
+3. Copy it into `C:\Users\<you>\.claude\skills\` (create the `skills` folder if it is not there), so you get `C:\Users\<you>\.claude\skills\depth-pov-explainer\SKILL.md`.
+4. Open a new Claude Code session and type `/depth-pov-explainer`, or just ask: "Make a Depth POV video about the [animal]".
+5. On the first run Claude creates `D:\DepthPOV\.env`. Open it in Notepad, paste your keys, save, and tell Claude to continue:
    ```
    ELEVENLABS_API_KEY=
    ELEVENLABS_VOICE_ID=
